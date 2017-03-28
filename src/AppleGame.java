@@ -14,11 +14,11 @@ public class AppleGame {
                 case "1":
                     RedApple redApples = new RedApple();
                     redApples.output();
-                    break;
+                    break outer;
                 case "2":
                     GreenApple greenApples = new GreenApple();
                     greenApples.output();
-                    break;
+                    break outer;
                 default:
                     System.out.println("Ooops...");
                     continue outer;
